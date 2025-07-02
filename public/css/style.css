@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+form > ul {
+  display: table;
+  border-spacing: 1em;
+}
+
+form > ul > li {
+  display: table-row;
+}
+
+label {
+  display: table-cell;
+  text-align: right;
+}
+
+select {
+  width: 200px;
+  text-overflow: ellipsis;
+}
+
+input {
+  margin-right: 0.5em;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.building {
+  font-weight: bold;
+}

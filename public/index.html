@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rutgers open classroom finder</title>
+    <link href="./css/style.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <h1>Rutgers open classroom finder</h1>
+    <h2 id="semester"></h2>
+    <p id="intro"></p>
+    <form id="form">
+      <ul>
+        <li>
+          <label for="day">Day:</label>
+          <select name="day" id="day"></select>
+        </li>
+        <li>
+          <label for="start">Start time:</label>
+          <input type="time" name="start" id="start"></input>
+          <button type="button" id="reset-start">Reset</button>
+        </li>
+        <li>
+          <label for="end">End time:</label>
+          <input type="time" name="end" id="end"></input>
+          <button type="button" id="reset-end">Reset</button>
+        </li>
+        <li>
+          <label for="campus">Campus:</label>
+          <select name="campus" id="campus">
+            <option value=""></option>
+          </select>
+        </li>
+        <li>
+          <label for="building">Building:</label>
+          <select name"building" id="building">
+            <option value=""></option>
+          </select>
+        </li>
+      </ul>
+      <button type="button" id="find-rooms">Find rooms</button>
+    </form>
+    <p id="results-info"></p>
+    <div id="open-rooms"></div>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

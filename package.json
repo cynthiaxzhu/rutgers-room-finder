@@ -1,0 +1,10 @@
+{
+  "name": "rutgers-room-finder",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "serve-favicon": "^2.5.1",
+    "undici": "^7.10.0"
+  }
+}
